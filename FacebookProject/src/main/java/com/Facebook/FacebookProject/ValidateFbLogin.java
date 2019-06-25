@@ -21,5 +21,6 @@ driver.get("http://facebook.com");
 	driver.findElement(By.id("email")).sendKeys("7032096482");
 	driver.findElement(By.id("pass")).sendKeys("Sand@1234");
 	driver.findElement(By.id("u_0_a")).click();
+	driver.close();
 }
 }
