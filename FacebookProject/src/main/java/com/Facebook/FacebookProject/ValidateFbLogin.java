@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 
 public class ValidateFbLogin {
 	
-	
 	WebDriver driver ;
 	@Test
 	public void launchApp()
