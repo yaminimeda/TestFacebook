@@ -14,6 +14,7 @@ public class ValidateFbLogin {
 	@Test
 	public void launchApp()
 	{
+		System.setProperty("webdriver.chrome.driver", "G:\\Selenium Practice\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 driver.get("http://facebook.com");
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
